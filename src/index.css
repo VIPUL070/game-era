@@ -194,6 +194,16 @@ body {
     border-radius: 1.5rem;
   }
 
+  .card{
+    border-radius: 0.5rem;
+    height: 50vh;
+    width: 25vw;
+  }
+
+  .card-2{
+    border-radius: 0.5rem;
+  }
+
   @media (min-width: 768px) {
     .about-image {
       width: 30vw;
