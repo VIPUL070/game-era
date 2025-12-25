@@ -1,11 +1,11 @@
-import About from "./comoponents/About";
-import Collab from "./comoponents/Collab";
-import Contact from "./comoponents/Contact";
-import Features from "./comoponents/Features";
-import Footer from "./comoponents/Footer";
-import Hero from "./comoponents/Hero";
-import Navbar from "./comoponents/Navbar";
-import Story from "./comoponents/Story";
+import About from "./components/About";
+import Collab from "./components/Collab";
+import Contact from "./components/Contact";
+import Features from "./components/Features";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Story from "./components/Story";
 
 function App() {
   return (
