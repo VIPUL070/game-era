@@ -330,6 +330,11 @@ body {
   }
 }
 
+.hover-icons a:hover{
+  color: white;
+  transition: all ease-in 0.4s;
+}
+
 /* Indicator Line Animation */
 .indicator-line {
   height: 0.25rem;

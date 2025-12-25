@@ -1,8 +1,11 @@
 import About from "./comoponents/About";
+import Collab from "./comoponents/Collab";
 import Contact from "./comoponents/Contact";
 import Features from "./comoponents/Features";
+import Footer from "./comoponents/Footer";
 import Hero from "./comoponents/Hero";
 import Navbar from "./comoponents/Navbar";
+import Story from "./comoponents/Story";
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
         <Hero />
         <About />
         <Features />
+        <Story />
+        <Collab />
         <Contact />
+        <Footer />
       </main>
   )
 }
