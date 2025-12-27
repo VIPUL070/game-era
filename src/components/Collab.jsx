@@ -59,7 +59,7 @@ useGSAP(() => {
 }, { scope: containerRef });
 
   return (
-    <section id="collab" className="h-auto w-screen bg-black p-10">
+    <section id="vault" className="h-auto w-screen bg-black p-10">
 
       <div  ref={containerRef} className="relative h-screen text-blue-50 flex flex-col items-center justify-evenly mb-40">
         {/* TITLE */}

@@ -78,7 +78,7 @@ const Navbar = () => {
               {navItems.map((item) => {
                 return (
                   <a
-                    href={`#${item.lowercase}`}
+                    href={`#${(item.toLowerCase())}`}
                     className="nav-hover-btn"
                     key={item}
                   >
