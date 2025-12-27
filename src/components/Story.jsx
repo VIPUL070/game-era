@@ -51,14 +51,14 @@ const Story = () => {
   useGSAP(() => {
   const clipAnimation = gsap.timeline({
     scrollTrigger: {
-      trigger: "#story",
+      trigger: "#prologue",
       start: "center center",
       end: "+=400 center",
       scrub: 1,
     },
   });
 
-  clipAnimation.to("#story", {
+  clipAnimation.to("#prologue", {
     backgroundColor: "#edff66",
   });
 
