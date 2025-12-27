@@ -63,7 +63,7 @@ useGSAP(() => {
 
       <div  ref={containerRef} className="relative h-screen text-blue-50 flex flex-col items-center justify-evenly mb-40">
         {/* TITLE */}
-        <div className="relative z-20 special-font text-[6rem]">
+        <div className="relative z-20 sm:text-center special-font text-[6rem]">
           <p>
             Ze<b>n</b>try at a glan<b>c</b>e
           </p>

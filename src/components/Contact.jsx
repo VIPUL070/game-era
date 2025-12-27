@@ -29,7 +29,7 @@ const Contact = () => {
 
         <div className="relative z-10 flex- flex-col items-center text-center">
           <p className="font-general text-[10px] uppercase">Join us</p>
-          <p className="special-font m-10 w-full font-zentry text-5xl leading-[0.9] md:text-[6rem]">
+          <p className="special-font m-10 md:w-full font-zentry text-5xl leading-[0.9] md:text-[6rem]">
             let's b<b>u</b>ild the <br /> new era of <br />g<b>a</b>ming t<b>o</b>gether
           </p>
           <Button title="contact us" containerClass="mt-10 cursor-pointer text-black" />

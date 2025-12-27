@@ -200,13 +200,15 @@ body {
     width: 25vw;
   }
 
-  .card-2{
-    border-radius: 0.5rem;
-  }
-
   @media (min-width: 768px) {
     .about-image {
       width: 30vw;
+    }
+  }
+
+  @media(max-width:640px){
+    #collab {
+      display: none;
     }
   }
 
